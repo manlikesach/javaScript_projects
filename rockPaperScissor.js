@@ -6,6 +6,13 @@ function computerChoice() {
   } else if (random < 0.66) {
     return "paper";
   } else {
-    return "scissor";
+    return "scissors";
   }
 }
+
+function humanChoice() {
+  const choice = prompt("Enter either rock, paper or scissors!");
+  return choice;
+}
+
+console.log(humanChoice());
