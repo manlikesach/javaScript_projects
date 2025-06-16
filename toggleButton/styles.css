@@ -1,4 +1,4 @@
-.box {
+/* .box {
   width: 100px;
   height: 100px;
   background: blue;
@@ -6,4 +6,14 @@
 
 .highlight {
   background: gold;
+} */
+
+.box {
+  width: 500px;
+  height: 500px;
+  background: pink;
+}
+
+.highlight {
+  background: blue;
 }
